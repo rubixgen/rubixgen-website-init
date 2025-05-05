@@ -7,9 +7,7 @@ const ContactForm = (props) => {
     const [forms, setForms] = useState({
         name: '',
         email: '',
-        subject: '',
         phone: '',
-        company: '',
         message: ''
     });
     const [validator] = useState(new SimpleReactValidator({
@@ -31,9 +29,7 @@ const ContactForm = (props) => {
             setForms({
                 name: '',
                 email: '',
-                subject: '',
                 phone: '',
-                company: '',
                 message: ''
             })
         } else {
@@ -100,7 +96,7 @@ const ContactForm = (props) => {
                                 type="text"
                                 name="message"
                                 className="form-control"
-                                placeholder="How can we help you?">
+                                placeholder="Tell us about your project">
                             </textarea>
                             {validator.message('message', forms.message, 'required')}
                         </div>

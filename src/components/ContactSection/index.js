@@ -18,8 +18,8 @@ const ContactSection = (props) => {
                     <div className="row pb-130 mt-none-30">
                         <div className="col-lg-8 mt-30">
                             <div className="cs-contact-wrap cs-contact-form cd-contact-form item-contact_form">
-                                <h2 className="xb-title">Send us a message</h2>
-                                <p className="xb-content">Give us a chance to serve and bring magic to your brand.</p>
+                                <h2 className="xb-title">Let's build something extraordinary together</h2>
+                                <p className="xb-content">We build websites, apps, and cloud solutions that accelerate your business growth.</p>
                                 <ContactForm />
                             </div>
                         </div>
@@ -28,8 +28,8 @@ const ContactSection = (props) => {
                                 <div className="xb-item--inner">
                                     <div className="xb-item--top">
                                         <h3 className="xb-item--title">Contact Info</h3>
-                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +(1) 1230 452 8597</span>
-                                        <span className="xb-item--email"><img src={icon2} alt="" /> RubixGen@example.com</span>
+                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +1 (123) 456-7890</span>
+                                        <span className="xb-item--email"><img src={icon2} alt="" /> hello@rubixgen.com</span>
                                         <ul className="social_icons_block list-unstyled ul_li">
                                             <li><Link onClick={ClickHandler} to="/contact" aria-label="Facebook"><i className="fab fa-facebook-f"></i></Link></li>
                                             <li>
@@ -41,17 +41,13 @@ const ContactSection = (props) => {
                                         </ul>
                                     </div>
                                     <div className="contact-info_widget">
-                                        <h3 className="xb-title">United states office</h3>
-                                        <span className="xb-location">Sunshine example park, Floor <br /> No 05A,Sector-94,</span>
-                                    </div>
-                                    <div className="contact-info_widget">
-                                        <h3 className="xb-title">United kingdom office</h3>
-                                        <span className="xb-location">12 Buckingham Rd, example <br /> Thwaite, HG3 4 TY, UK Contact</span>
+                                        <h3 className="xb-title">Sri Lanka Office</h3>
+                                        <span className="xb-location">RubixGen, 223 A 1/2 Galle Rd,<br />Panadura 12500, Sri Lanka</span>
                                     </div>
                                     <hr className="breack-line" />
                                     <div className="contact-info_widget">
                                         <h3 className="xb-title">our office open time</h3>
-                                        <span className="xb-location">Mon - Sat : 8.00-5.00 <br /> Sunday : Closed</span>
+                                        <span className="xb-location">Mon - Sat : 9:00 - 5:00<br />Sunday : Closed</span>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +56,7 @@ const ContactSection = (props) => {
                 </div>
             </div>
             <div className="gmap_canvas bg-light">
-                <iframe title='map' src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                <iframe title='map' src="https://maps.google.com/maps?q=223+A+1/2+Galle+Rd,+Panadura+12500,+Sri+Lanka&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
             </div>
         </div>
     )

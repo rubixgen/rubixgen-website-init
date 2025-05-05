@@ -1,4 +1,3 @@
-
 import React, { Fragment } from 'react';
 import ContactSection from '../../components/ContactSection';
 import Header from '../../components/header/Header';
@@ -10,7 +9,7 @@ import icon from '../../images/icon/music-icon.svg'
 import bImg1 from '../../images/hero/contact-img.png'
 import bImg2 from '../../images/shape/brd_shape.png'
 
-const TeamPage = (props) => {
+const ContactPage = (props) => {
 
     return (
         <Fragment>
@@ -23,7 +22,7 @@ const TeamPage = (props) => {
                                 <div className="col-lg-9 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><img src={icon} alt="" /> Contact us</span>
-                                        <h2 className="title">Connect with our team for <br /> innovative solutions and <br /> your digital success</h2>
+                                        <h2 className="title">Build Smart. Scale Fast. <br />Evolve Always with <br />RubixGen Solutions</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 mt-30">
@@ -46,4 +45,4 @@ const TeamPage = (props) => {
         </Fragment>
     )
 };
-export default TeamPage;
+export default ContactPage;

@@ -11,7 +11,7 @@ import icon9 from '../../images/icon/m_08.svg'
 import icon10 from '../../images/icon/m_09.svg'
 import icon11 from '../../images/icon/m_10.svg'
 import icon12 from '../../images/icon/m_11.svg'
-import logo from '../../images/logo/logo-white.svg'
+import logo from '../../images/logo/ruby-white.png'
 import logo2 from '../../images/logo/logo-black02.svg'
 import clogo1 from '../../images/logo/client-logo.svg'
 import clogo2 from '../../images/logo/client-logo2.svg'
@@ -533,7 +533,7 @@ const Header2 = (props) => {
                                     <div className="xb-header-menu-scroll lenis lenis-smooth">
                                         <div className="xb-menu-close xb-hide-xl xb-close" onClick={() => setMobailState(!mobailActive)}></div>
                                         <div className="xb-logo-mobile xb-hide-xl">
-                                            <Link onClick={ClickHandler} to="/" rel="home"><img src="assets/img/logo/logo-black.svg"
+                                            <Link onClick={ClickHandler} to="/" rel="home"><img src="assets/img/logo/ruby-black.png"
                                                 alt="" /></Link>
                                         </div>
                                         <div className="xb-header-mobile-search xb-hide-xl">
