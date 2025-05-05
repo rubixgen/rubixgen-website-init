@@ -4,6 +4,40 @@ import ListItem from "@mui/material/List";
 import Collapse from "@mui/material/Collapse";
 import { Link } from "react-router-dom";
 
+// Custom simplified menu for HomePage3
+const homePage3Menus = [
+    {
+        id: 1,
+        title: 'Home',
+        link: '#',
+        isScrollLink: false
+    },
+    {
+        id: 2,
+        title: 'Company',
+        link: '#company',
+        isScrollLink: true
+    },
+    {
+        id: 3,
+        title: 'Services',
+        link: '#services',
+        isScrollLink: true
+    },
+    {
+        id: 4,
+        title: 'Portfolio',
+        link: '#portfolio',
+        isScrollLink: true
+    },
+    {
+        id: 5,
+        title: 'Contact',
+        link: '/contact',
+        isScrollLink: false
+    }
+];
+
 const menus = [
     {
         id: 1,
@@ -160,8 +194,6 @@ const menus = [
         title: 'Contact',
         link: '/contact',
     }
-
-
 ]
 
 const MobileMenu = () => {
@@ -172,9 +204,26 @@ const MobileMenu = () => {
         window.scrollTo(10, 0);
     }
 
+    // Detect if we're on HomePage3
+    const isHomePage3 = window.location.pathname === '/home-3' || window.location.pathname === '/';
+
+    // Smooth scroll function for navigation
+    const scrollToSection = (sectionId, e) => {
+        e.preventDefault();
+        const section = document.getElementById(sectionId.replace('#', ''));
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+            // Close mobile menu if open
+            document.querySelector('.xb-header-menu')?.classList.remove('active');
+        }
+    }
+
+    // Choose which menu to render based on the current page
+    const menuToRender = isHomePage3 ? homePage3Menus : menus;
+
     return (
         <ul className="xb-menu-primary clearfix">
-            {menus.map((item, mn) => {
+            {menuToRender.map((item, mn) => {
                 return (
                     <ListItem className={item.id === openId ? 'active' : null} key={mn}>
                         {item.submenu ?
@@ -197,8 +246,9 @@ const MobileMenu = () => {
                                     </List>
                                 </Collapse>
                             </Fragment>
-                            : <Link className="active"
-                                to={item.link}>{item.title}</Link>
+                            : item.isScrollLink ? 
+                              <a href={item.link} onClick={(e) => scrollToSection(item.link, e)}>{item.title}</a>
+                              : <Link className="active" to={item.link} onClick={ClickHandler}>{item.title}</Link>
                         }
                     </ListItem>
                 )

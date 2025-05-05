@@ -18,7 +18,7 @@ const ServiceSection = (props) => {
 
 
   return (
-    <section className="service pb-150 bg_img" style={{ backgroundImage: `url(${Bg})` }}>
+    <section className="service pb-150 bg_img" id="services" style={{ backgroundImage: `url(${Bg})` }}>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">

@@ -31,7 +31,7 @@ const Testimonial = () => {
     }
 
     return (
-        <section className="testimonial pt-150 pb-140">
+        <section className="testimonial pt-150 pb-140" id="portfolio">
             <div className="container">
                 <div className="da-sec-titlte text-center mb-60">
                     <span className="sub_title"><span><img src={ticon1} alt="" /></span>Case studies</span>

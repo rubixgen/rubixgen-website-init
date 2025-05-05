@@ -28,6 +28,15 @@ const Header3 = (props) => {
         window.scrollTo(10, 0);
     }
 
+    // Smooth scroll function for navigation
+    const scrollToSection = (sectionId, e) => {
+        e.preventDefault();
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
     const [isSticky, setSticky] = useState(false);
 
     useEffect(() => {
@@ -72,13 +81,13 @@ const Header3 = (props) => {
                                             <Link onClick={ClickHandler} to="#"><span>Home</span></Link>
                                         </li>
                                         <li className="menu-item">
-                                            <Link onClick={ClickHandler} to="/"><span>Company</span></Link>
+                                            <a href="#company" onClick={(e) => scrollToSection('company', e)}><span>Company</span></a>
                                         </li>
                                         <li className="menu-item">
-                                            <Link onClick={ClickHandler} to="/service"><span>Services</span></Link>
+                                            <a href="#services" onClick={(e) => scrollToSection('services', e)}><span>Services</span></a>
                                         </li>
                                         <li className="menu-item">
-                                            <Link onClick={ClickHandler} to="/casestudy"><span>Portfolio</span></Link>
+                                            <a href="#portfolio" onClick={(e) => scrollToSection('portfolio', e)}><span>Portfolio</span></a>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
                                     </ul>

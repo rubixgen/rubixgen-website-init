@@ -4,7 +4,7 @@ import shape from '../../../images/shape/about-glassisom.png'
 const About = (props) => {
 
     return (
-        <section className="about">
+        <section className="about" id="company">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
