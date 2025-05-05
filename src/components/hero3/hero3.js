@@ -18,12 +18,12 @@ const Hero3 = (props) => {
                             <div className="xb-hero">
                                 <Fade direction='up' triggerOnce={'false'} duration={800} delay={6}>
                                     <div>
-                                        <h1 className="xb-item--title wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">Get AI and Data Analytics solutions With Innomax</h1>
+                                        <h1 className="xb-item--title wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">Transforming Ideas into Digital Reality</h1>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1500} delay={9}>
                                     <div>
-                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">Get greater clarity on the data that matters to you. And start making better informed decisions to help your business grow.</p>
+                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">We design and develop websites, mobile apps, and web applications that help your business grow and thrive in the digital age.</p>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
@@ -32,9 +32,9 @@ const Hero3 = (props) => {
                                             <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Book a Discover Call</span></div>
                                                 <div className="xb-item--holder">
-                                                    <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
+                                                    <span className="xb-item--text xb-item--text1">Let's Build your's</span>
                                                     <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                                                    <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
+                                                    <span className="xb-item--text xb-item--text2">Let's Build your's</span>
                                                 </div>
                                             </Link>
                                         </div>
