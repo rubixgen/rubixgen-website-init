@@ -9,26 +9,26 @@ import hicon from '../../../images/icon/flower-icon-blue.svg'
 
 const Features = [
     {
-        title: 'Dispersed data',
-        des: 'Your data is held in multiple sources, making it difficult to get a single view of the truth.',
+        title: 'Data Driven',
+        des: 'We build with insight, ensuring every solution is backed by data',
         icon: icon1,
         col:'col-lg-4 col-md-6 fea-col',
     },
     {
-        title: 'Skills shortage',
-        des: 'You struggle to get data into an accessible format and act on generated insights.',
+        title: 'Innovation First',
+        des: 'We bring fresh ideas and creative thinking to every project',
         icon: icon2,
         col:'col-lg-2 col-md-6 fea-col',
     },
     {
         title: 'Business adoption',
-        des: 'Senior stakeholders don’t understand the untapped value that data and AI can bring.',
+        des: 'Seamless, scalable solutions powered by the cloud make it easy to adopt new technology and drive business growth.',
         icon: icon3,
         col:'col-lg-2 col-md-6 fea-col',
     },
     {
         title: 'Solution design',
-        des: 'You have the insights but can’t grasp the technology to drive the business forward.',
+        des: 'Simple, effective, and intelligent digital products that solve real-world problems',
         icon: icon4,
         col:'col-lg-4 col-md-6 fea-col',
     },
@@ -48,8 +48,8 @@ const FeatureSection = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-xl-5 col-lg-8">
                         <div className="da-sec-titlte text-center mb-70">
-                            <span className="sub_title"><span><img src={hicon} alt=""/></span>Challenge</span>
-                            <h2 className="title">Can’t see the wood from the trees? Don’t let good data go to waste</h2>
+                            <span className="sub_title"><span><img src={hicon} alt=""/></span>Why Us</span>
+                            <h2 className="title">RubixGen is Cheaper, Faster & Better than other agencies</h2>
                         </div>
                     </div>
                 </div>
