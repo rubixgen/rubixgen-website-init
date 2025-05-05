@@ -6,8 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ticon1 from "../../../images/icon/flower-icon-blue.svg";
-import tImg1 from "../../../images/testimonial/da-tes-img.png";
-import tImg2 from "../../../images/testimonial/ixico-logo.png";
+import tImg1 from "../../../images/testimonial/solar.jpg";
+import tImg2 from "../../../images/testimonial/sunLogo.png";
 
 
 
@@ -57,29 +57,30 @@ const Testimonial = () => {
                                     <div className="row align-items-center mt-none-30">
                                         <div className="col-lg-6 mt-30">
                                             <div className="da-tes-left">
-                                                <h2 className="xb-item--title">Transforming a leading medical imaging service provider with Microsoft Cloud</h2>
-                                                <p className="xb-item--content content--one">With the ambition to scale and further develop its AI-imaging  biomarker service offering to the global clinical trial market, IXICO  came to us for a secure and seamless cloud transformation.</p>
+                                                <h2 className="xb-item--title">RubixGen developed the Sun Pledge Holdings website</h2>
+                                                <p className="xb-item--content content--one">We began by understanding Sun Pledge Holdings' vision and objectives. Our team crafted a user-centric design that reflects the company's commitment to sustainable energy, ensuring a seamless user experience across all devices.
+                                                    Sub Pledge Holdings
+                                                </p>
                                                 <div className="xb-item--holder ul_li align-items-start">
                                                     <div className="xb-item--meta">
-                                                        <h3 className="xb-item--number">$3 Million</h3>
-                                                        <span className="xb-item--text">Annual cost savings achieved through optimized trial operations.</span>
+                                                        <h3 className="xb-item--number">459+ Projects </h3>
+                                                        <span className="xb-item--text">Solar Initiative Project aims to transform communities by providing accessible and affordable solar energy solutions.</span>
                                                     </div>
                                                     <div className="xb-item--meta">
-                                                        <h3 className="xb-item--number">200+ Clinical Trials</h3>
-                                                        <span className="xb-item--text">Supported globally with IXICO's AI-enhanced imaging biomarkers.</span>
+                                                        <h3 className="xb-item--number">In 1+ Years</h3>
+                                                        <span className="xb-item--text">Sun pledge solar is in operation for 1+ years and completed many projects to date.</span>
                                                     </div>
                                                 </div>
-                                                <p className="xb-item--content content--two">IXICO is a premium, specialist neuroimaging services provider to the global biopharmaceutical industry.</p>
-                                                <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p>
+                                                <p className="xb-item--content content--three">Utilizing modern web technologies and agile methodologies, we streamlined the development process. This approach allowed us to build a robust and scalable website without unnecessary delays.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 mt-30">
                                             <div className="da-tes-right">
                                                 <div className="xb-item--author">
-                                                    <img src={tImg1} alt="" />
+                                                    <a href="https://sunpledgeholdings.com/" target="_blank" rel="noreferrer"> <img src={tImg1} alt="" /></a>
                                                 </div>
                                                 <div className="xb-item--avatar">
-                                                    <img src={tImg2} alt="" />
+                                                <a href="https://sunpledgeholdings.com/" target="_blank" rel="noreferrer"><img src={tImg2} alt="" /></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,29 +90,30 @@ const Testimonial = () => {
                                     <div className="row align-items-center mt-none-30">
                                         <div className="col-lg-6 mt-30">
                                             <div className="da-tes-left">
-                                                <h2 className="xb-item--title">Transforming a leading medical imaging service provider with Microsoft Cloud</h2>
-                                                <p className="xb-item--content content--one">With the ambition to scale and further develop its AI-imaging  biomarker service offering to the global clinical trial market, IXICO  came to us for a secure and seamless cloud transformation.</p>
+                                                <h2 className="xb-item--title">RubixGen developed the Sun Pledge Holdings website</h2>
+                                                <p className="xb-item--content content--one">We began by understanding Sun Pledge Holdings' vision and objectives. Our team crafted a user-centric design that reflects the company's commitment to sustainable energy, ensuring a seamless user experience across all devices.
+                                                    Sub Pledge Holdings
+                                                </p>
                                                 <div className="xb-item--holder ul_li align-items-start">
                                                     <div className="xb-item--meta">
-                                                        <h3 className="xb-item--number">$3 Million</h3>
-                                                        <span className="xb-item--text">Annual cost savings achieved through optimized trial operations.</span>
+                                                        <h3 className="xb-item--number">459+ Projects </h3>
+                                                        <span className="xb-item--text">Solar Initiative Project aims to transform communities by providing accessible and affordable solar energy solutions.</span>
                                                     </div>
                                                     <div className="xb-item--meta">
-                                                        <h3 className="xb-item--number">200+ Clinical Trials</h3>
-                                                        <span className="xb-item--text">Supported globally with IXICO's AI-enhanced imaging biomarkers.</span>
+                                                        <h3 className="xb-item--number">In 1+ Years</h3>
+                                                        <span className="xb-item--text">Sun pledge solar is in operation for 1+ years and completed many projects to date.</span>
                                                     </div>
                                                 </div>
-                                                <p className="xb-item--content content--two">IXICO is a premium, specialist neuroimaging services provider to the global biopharmaceutical industry.</p>
-                                                <p className="xb-item--content content--three">The company develops and deploys therapeutic specific AI <br /> (Artificial  Intelligence) algorithms designed to reduce clinical trial <br /> size and  costs whilst simultaneously improving insights to increase the  likelihood of approval in neurological clinical trials.</p>
+                                                <p className="xb-item--content content--three">Utilizing modern web technologies and agile methodologies, we streamlined the development process. This approach allowed us to build a robust and scalable website without unnecessary delays.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 mt-30">
                                             <div className="da-tes-right">
                                                 <div className="xb-item--author">
-                                                    <img src={tImg1} alt="" />
+                                                    <a href="https://sunpledgeholdings.com/" target="_blank" rel="noreferrer"> <img src={tImg1} alt="" /></a>
                                                 </div>
                                                 <div className="xb-item--avatar">
-                                                    <img src={tImg2} alt="" />
+                                                <a href="https://sunpledgeholdings.com/" target="_blank" rel="noreferrer"><img src={tImg2} alt="" /></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -122,16 +124,6 @@ const Testimonial = () => {
                     </div>
                     <div className="da-swiper-btn swiper-button-prev" ref={prevRef}><i className="fal fa-long-arrow-left"></i></div>
                     <div className="da-swiper-btn swiper-button-next" ref={nextRef}><i className="fal fa-long-arrow-right"></i></div>
-                </div>
-                <div className="xb-btn text-center mt-55">
-                    <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data-strock">
-                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">View More Case Studies</span></div>
-                        <div className="xb-item--holder">
-                            <span className="xb-item--text xb-item--text1">View More Case Studies</span>
-                            <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                            <span className="xb-item--text xb-item--text2">View More Case Studies</span>
-                        </div>
-                    </Link>
                 </div>
             </div>
         </section>

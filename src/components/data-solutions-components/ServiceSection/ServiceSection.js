@@ -23,9 +23,9 @@ const ServiceSection = (props) => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="da-sec-titlte text-center mb-30">
-              <span className="sub_title"><span><img src={sIcon} alt="" /></span>OUr Services</span>
-              <h2 className="title">AI and data analytics services to help you become greater</h2>
-              <p className="content">Turn your disparate data into a major asset – and realise the true potential of your business.</p>
+              <span className="sub_title"><span><img src={sIcon} alt="" /></span>Our Services</span>
+              <h2 className="title">Bringing your ideas to life with innovative, scalable, and intelligent digital solutions.</h2>
+              <p className="content">Modern, scalable, and high-performing digital products.</p>
             </div>
           </div>
         </div>
