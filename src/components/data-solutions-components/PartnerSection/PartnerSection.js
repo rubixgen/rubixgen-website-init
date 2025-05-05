@@ -54,7 +54,7 @@ const PartnerSection = () => {
       <div className="container">
         <div className="da-brand_wrapper">
           <h2 className="xb-item--title">
-            More than <span>25,000</span> brands trust Innomax
+            More than <span>25,000</span> brands trust RubixGen
           </h2>
           <div className="da-brand_inner" ref={marqueeRef} style={{ overflow: "hidden" }}>
             <div className="da-brand_marquee" style={{ display: "flex", whiteSpace: "nowrap" }}>

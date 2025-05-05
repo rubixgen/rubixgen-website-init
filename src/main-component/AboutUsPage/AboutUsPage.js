@@ -26,7 +26,7 @@ const AboutUsPage = (props) => {
                             <div className="row mt-none-30 align-items-end">
                                 <div className="col-xl-9 col-lg-8 mt-30">
                                     <div className="page-title-box">
-                                        <span className="sub-title"><img src={icon} alt="" /> About Innomax</span>
+                                        <span className="sub-title"><img src={icon} alt="" /> About RubixGen</span>
                                         <h2 className="title">Unlocking new heights of online success: how our SEO agency transforms visibility and growth</h2>
                                     </div>
                                 </div>

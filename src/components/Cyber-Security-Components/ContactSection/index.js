@@ -27,7 +27,7 @@ const ContactSection = (props) => {
                                     <p className="xb-item--content">Initiating Your Journey to Success and Growth.</p>
                                     <ul className="xb-item--cont_info list-unstyled">
                                         <li><span><img src={icon2} alt=""/></span>+(1) 1230 452 8597</li>
-                                        <li><span className="clr-sky"><img src={icon3} alt=""/></span>innomax@gmail.com</li>
+                                        <li><span className="clr-sky"><img src={icon3} alt=""/></span>RubixGen@gmail.com</li>
                                         <li><span className="clr-orange"><img src={icon4} alt=""/></span>Sunshine example road</li>
                                     </ul>
                                     <div className="xb-item--img">

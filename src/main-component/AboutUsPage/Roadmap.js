@@ -18,16 +18,16 @@ const RoadmapSlider = () => {
         {
             quarter: "Q-1",
             year: "2012",
-            title: "Innomax was founded",
+            title: "RubixGen was founded",
             content:
-                "Innomax started in USA with only five employees. All working from the cheapest office we could find (with hideous green walls, fluorescent lighting, and no windows).",
+                "RubixGen started in USA with only five employees. All working from the cheapest office we could find (with hideous green walls, fluorescent lighting, and no windows).",
         },
         {
             quarter: "Q-2",
             year: "2014",
             title: "We grew to 40 full-time employees",
             content:
-                "In 2014, Innomax completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
+                "In 2014, RubixGen completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
         },
         {
             quarter: "Q-3",
@@ -41,21 +41,21 @@ const RoadmapSlider = () => {
             year: "2018",
             title: "Sharing Our SEO Expertise Globally",
             content:
-                "By 2018, InnoMax attracted a primarily international clientele from countries like the US, UK, Australia, Norway, and Japan. They also began sharing their SEO expertise globally, speaking at conferences like the Chiang Mai SEO Conference and LRT Conference.",
+                "By 2018, RubixGen attracted a primarily international clientele from countries like the US, UK, Australia, Norway, and Japan. They also began sharing their SEO expertise globally, speaking at conferences like the Chiang Mai SEO Conference and LRT Conference.",
         },
         {
             quarter: "Q-5",
             year: "2024",
             title: "Present",
             content:
-                "Today, InnoMax has over 200 employees, mostly based in Ukraine, who continue working full-time despite the war. The company supports its staff from afar while donating proceeds to the army.",
+                "Today, RubixGen has over 200 employees, mostly based in Ukraine, who continue working full-time despite the war. The company supports its staff from afar while donating proceeds to the army.",
         },
         {
             quarter: "Q-2",
             year: "2014",
             title: "We grew to 40 full-time employees",
             content:
-                "In 2014, Innomax completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
+                "In 2014, RubixGen completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
         },
         {
             quarter: "Q-3",

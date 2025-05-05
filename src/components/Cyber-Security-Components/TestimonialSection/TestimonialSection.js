@@ -31,7 +31,7 @@ const customerStories = [
             title: "Luminous enhances data security.",
         },
         right: {
-            content: "“With Innomax's real-time threat detection, our sensitive data is more secure than ever. Their team implemented advanced security measures, ensuring we meet all compliance requirements.”",
+            content: "“With RubixGen's real-time threat detection, our sensitive data is more secure than ever. Their team implemented advanced security measures, ensuring we meet all compliance requirements.”",
             author: {
                 name: "Mike Davis",
                 designation: "CTO at Luminous",
@@ -56,7 +56,7 @@ const customerStories = [
             title: "Bitstamp secures customer.",
         },
         right: {
-            content: "“Innomax transformed our security approach, giving us the confidence to protect our customers' data. Their solutions strengthen our defenses while ensuring full compliance with industry regulations.”",
+            content: "“RubixGen transformed our security approach, giving us the confidence to protect our customers' data. Their solutions strengthen our defenses while ensuring full compliance with industry regulations.”",
             author: {
                 name: "John Lee",
                 designation: "CEO at Bitstamp",
@@ -81,7 +81,7 @@ const customerStories = [
             title: "Santander boosts cybersecurity.",
         },
         right: {
-            content: "“Thanks to innomax, we have a strong security framework that protects our data and ensures compliance with industry regulations. Their solutions provide real-time threat detection, with confidence.”",
+            content: "“Thanks to RubixGen, we have a strong security framework that protects our data and ensures compliance with industry regulations. Their solutions provide real-time threat detection, with confidence.”",
             author: {
                 name: "Sophia Turner",
                 designation: "Founder at Santander",
@@ -106,7 +106,7 @@ const customerStories = [
             title: "FirstQuadrant mitigates risk.",
         },
         right: {
-            content: "“Innomax’s proactive solutions have greatly reduced our risk exposure. Their expert team implemented strong defenses, helping us stay ahead of evolving cyber threats and keep our business secure.”",
+            content: "“RubixGen’s proactive solutions have greatly reduced our risk exposure. Their expert team implemented strong defenses, helping us stay ahead of evolving cyber threats and keep our business secure.”",
             author: {
                 name: "Laura Chen",
                 designation: "Founder at FirstQuadrant",
@@ -131,7 +131,7 @@ const customerStories = [
             title: "Madrid Safeguards Against Cyber.",
         },
         right: {
-            content: "“Thanks to Innomax, we’ve greatly reduced our vulnerability to cyberattacks. Their advanced solutions give us confidence in our security strategy, ensuring robust protection against threats.”",
+            content: "“Thanks to RubixGen, we’ve greatly reduced our vulnerability to cyberattacks. Their advanced solutions give us confidence in our security strategy, ensuring robust protection against threats.”",
             author: {
                 name: "Sophia Turner",
                 designation: "Founder at Madrid",

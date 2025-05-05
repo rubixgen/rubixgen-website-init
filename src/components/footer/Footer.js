@@ -27,7 +27,7 @@ const Footer = (props) => {
                             </div>
                             <div className="xb-item--holder">
                                 <p className="xb-item--content">Write to us</p>
-                                <h4 className="xb-item--title">innomax@gmail.com</h4>
+                                <h4 className="xb-item--title">RubixGen@gmail.com</h4>
                             </div>
                         </div>
                         <div className="info-item ul_li">
@@ -59,7 +59,7 @@ const Footer = (props) => {
                                 <div className="img"><img src={icon4} alt="" /></div>
                                 <button type="submit" className="xb-item--btn"><i className="fas fa-paper-plane"></i></button>
                             </form>
-                            <span className="xb-item--text">By continuing, you agree to innomax <Link onClick={ClickHandler} to="/terms-conditions">Terms</Link> of
+                            <span className="xb-item--text">By continuing, you agree to RubixGen <Link onClick={ClickHandler} to="/terms-conditions">Terms</Link> of
                                 Use and <Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></span>
                         </div>
                         <div className="footer-widget">
@@ -102,7 +102,7 @@ const Footer = (props) => {
                         </div>
                     </div>
                     <div className="footer-copyright mt-70 ul_li_between">
-                        <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/">innomax</Link>. All rights
+                        <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/">RubixGen</Link>. All rights
                             reserved.</p>
                         <ul className="footer-link ul_li mt-20">
                             <li><span>Follow us :</span></li>

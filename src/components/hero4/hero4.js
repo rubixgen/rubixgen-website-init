@@ -78,7 +78,7 @@ const Hero4 = () => {
                     autoPlay
                     style={{ width: '100%', height: '100%' }}
                 >
-                    <source src="https://html.xpressbuddy.com/innomax/cyber_security_hero.mp4" type="video/mp4" />
+                    <source src="https://html.xpressbuddy.com/RubixGen/cyber_security_hero.mp4" type="video/mp4" />
                 </video>
             </div>
         </section>

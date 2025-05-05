@@ -37,7 +37,7 @@ const Footer = (props) => {
                             <span className="xb-item--sub-title">✍️ need help</span>
                             <ul className="xb-item--holder list-unstyled">
                                 <li className="xb-item--number"><span><img src={icon1} alt=""/></span>+618 8967 5983</li>
-                                <li className="xb-item--email"><span><img src={icon2} alt=""/></span>innomax@gmail.com</li>
+                                <li className="xb-item--email"><span><img src={icon2} alt=""/></span>RubixGen@gmail.com</li>
                             </ul>
                             <ul className="xb-item--social-link list-unstyled ul_li mt-45">
                                 <li className="xb-item--social-icon"><Link onClick={ClickHandler} to="/home-6"><i className="fab fa-facebook-f"></i></Link></li>
@@ -72,7 +72,7 @@ const Footer = (props) => {
                     </div>
                 </div>
                 <div className="footer-copyright ul_li_between">
-                    <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home-6">innomax</Link>. All rights reserved.</p>
+                    <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home-6">RubixGen</Link>. All rights reserved.</p>
                     <ul className="hds-footer-links ul_li mt-20">
                         <li><Link onClick={ClickHandler} to="/terms-conditions">Terms & Conditions</Link></li>
                         <li><Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></li>

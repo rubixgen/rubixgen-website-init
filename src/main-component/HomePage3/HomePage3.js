@@ -22,12 +22,11 @@ const HomePage3 = () => {
                     <Header3 />
                     <Hero3 />
                     <About />
-                    <FeatureSection />
                     <ServiceSection />
                     <Testimonial />
+                    <FeatureSection />
                     <QuoteSetion />
                     <PartnerSection />
-                    <DataSolutioBlogSection />
                     <DataSolutionFaqSection />
                     <Scrollbar />
                 </main>

@@ -43,13 +43,13 @@ const FeatureSection = (props) => {
         window.scrollTo(10, 0);
     }
     return (
-        <section className="feature pt-150 pb-150" style={{ backgroundColor: '#f4f5fc' }}>
+        <section className="feature pt-150 pb-90" style={{ backgroundColor: '#f4f5fc' }}>
             <div className="container-fluid p-0">
                 <div className="row justify-content-center">
                     <div className="col-xl-5 col-lg-8">
                         <div className="da-sec-titlte text-center mb-70">
                             <span className="sub_title"><span><img src={hicon} alt=""/></span>Why Us</span>
-                            <h2 className="title">RubixGen is Cheaper, Faster & Better than other agencies</h2>
+                            <h2 className="title">RubixGen is Cheaper,</h2><h2 className="title"> Faster & Better✨</h2>
                         </div>
                     </div>
                 </div>
@@ -67,16 +67,6 @@ const FeatureSection = (props) => {
                             </div>
                         ))}
                     </div>
-                </div>
-                <div className="xb-btn text-center mt-70">
-                    <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data thm-btn--data_blue">
-                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">Book a Discover Call</span></div>
-                        <div className="xb-item--holder">
-                            <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
-                            <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                            <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
-                        </div>
-                    </Link>
                 </div>
             </div>
         </section>

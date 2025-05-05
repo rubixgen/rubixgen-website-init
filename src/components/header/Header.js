@@ -99,7 +99,7 @@ const Header = (props) => {
                                                                                             Us</small>
                                                                                     </span>
                                                                                     <span className="description mb-0">
-                                                                                        Learn more about Innomax
+                                                                                        Learn more about RubixGen
                                                                                     </span>
                                                                                 </Link>
                                                                             </div>
@@ -329,15 +329,15 @@ const Header = (props) => {
                                                                                         Maverick Phoenix</h3>
                                                                                     <span
                                                                                         className="author_designation text-white">CEO
-                                                                                        At Innomax</span>
+                                                                                        At RubixGen</span>
                                                                                 </div>
                                                                             </div>
                                                                             <p className="mb-0 text-white">“As a CEO at
-                                                                                innomax I have been voice crying in the
+                                                                                RubixGen I have been voice crying in the
                                                                                 wilderness, trying to make requirements
                                                                                 clear, use every minute to deliver the
                                                                                 result, and not reinvent the wheel. Here
-                                                                                at innomax, I made that possible for the
+                                                                                at RubixGen, I made that possible for the
                                                                                 clients”. </p>
                                                                             <div className="author_box_quote">
                                                                                 <img src={quote} alt="" />

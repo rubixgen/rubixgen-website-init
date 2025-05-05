@@ -54,7 +54,7 @@ const HelpDeskBlogSection = (props) => {
                                         <li>{blog.read}</li>
                                     </ul>
                                     <h2 className="xb-item--title border-effect"><Link onClick={ClickHandler} to={`/blog-single/${blog.slug}`}>{blog.title}</Link></h2>
-                                    <span className="xb-item--content">Innomax’s AI-Support boosts efficiency and enhances customer service.</span>
+                                    <span className="xb-item--content">RubixGen’s AI-Support boosts efficiency and enhances customer service.</span>
                                 </div>
                             </div>
                         ))}

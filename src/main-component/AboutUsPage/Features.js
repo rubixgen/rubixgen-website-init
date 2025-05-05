@@ -16,14 +16,14 @@ const FeaturesSection = (props) => {
                             <div className="ap-feature-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
                                 <div className="xb-item--icon"><img src={sIcon1} alt=""/></div>
                                 <h4 className="xb-item--title">Deliver results</h4>
-                                <p className="xb-item--content">At Innomax, delivering results means achieving success.</p>
+                                <p className="xb-item--content">At RubixGen, delivering results means achieving success.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 mt-30">
                             <div className="ap-feature-item wow fadeInUp" data-wow-delay="100ms" data-wow-duration="600ms">
                                 <div className="xb-item--icon"><img src={sIcon2} alt=""/></div>
                                 <h4 className="xb-item--title">Being proactive</h4>
-                                <p className="xb-item--content">At Innomax, being proactive means anticipating challenges. </p>
+                                <p className="xb-item--content">At RubixGen, being proactive means anticipating challenges. </p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 mt-30">

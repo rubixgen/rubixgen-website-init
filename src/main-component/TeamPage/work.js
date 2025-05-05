@@ -39,13 +39,13 @@ const workItems = [
         id: 5,
         icon: icon5,
         title: 'Career change option',
-        content: 'No need to job hunt to learn new tech or switch roles—we’ll support your transition within innomax.',
+        content: 'No need to job hunt to learn new tech or switch roles—we’ll support your transition within RubixGen.',
     },
     {
         id: 6,
         icon: icon6,
         title: 'Friendly atmosphere',
-        content: 'We value people as innomax greatest asset and ensure hierarchy never works against our employees.',
+        content: 'We value people as RubixGen greatest asset and ensure hierarchy never works against our employees.',
     },
 ];
 

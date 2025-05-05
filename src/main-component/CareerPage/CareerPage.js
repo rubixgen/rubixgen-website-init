@@ -30,7 +30,7 @@ const CareerPage = (props) => {
                                 <div className="col-lg-8 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><img src={icon} alt="" />Careers</span>
-                                        <h2 className="title">Be a part of shaping the <br /> future & career opportunities <br /> at Innomax today.</h2>
+                                        <h2 className="title">Be a part of shaping the <br /> future & career opportunities <br /> at RubixGen today.</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 mt-30">
@@ -77,7 +77,7 @@ const CareerPage = (props) => {
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-                            <h2 className="title">innomax</h2>
+                            <h2 className="title">RubixGen</h2>
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ const Footer = (props) => {
       <div className="container">
         <div className="xb-footer">
           <div className="sec-title--two sec-title--three text-center mb-40">
-            <span className="sub-title"><img src="assets/img/icon/airdrop01.svg" alt="" /><span>Join the  innomax community</span></span>
+            <span className="sub-title"><img src="assets/img/icon/airdrop01.svg" alt="" /><span>Join the  RubixGen community</span></span>
           </div>
           <div className="social-link ul_li_between">
             <div className="social-item">
@@ -69,7 +69,7 @@ const Footer = (props) => {
             <div className="footer-widget">
               <span className="xb-item--sub-title">Resources</span>
               <ul className="xb-item--holder list-unstyled">
-                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">innomax Blog</Link></li>
+                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">RubixGen Blog</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/casestudy">Case Studies</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/home-4">Achievements</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/home-4">Our industries</Link></li>
@@ -77,7 +77,7 @@ const Footer = (props) => {
             </div>
             <div className="sa-newslatter footer-widget">
               <span className="xb-item--sub-title">Newsletter</span>
-              <p className="xb-item--content clr-white">Sign up innomax for weekly updates.</p>
+              <p className="xb-item--content clr-white">Sign up RubixGen for weekly updates.</p>
               <div className="xb-item--input-box">
                 <label htmlFor="text6">Email</label>
                 <form className="xb-item--input_field pos-rel" onSubmit={SubmitHandler}>
@@ -88,7 +88,7 @@ const Footer = (props) => {
             </div>
           </div>
           <div className="footer-copyright mt-70 ul_li_between">
-            <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home-4">innomax</Link>. All rights reserved.</p>
+            <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home-4">RubixGen</Link>. All rights reserved.</p>
             <p className="mt-20">Designed by <Link onClick={ClickHandler} to="/home-4">XpressBuddy</Link></p>
           </div>
         </div>

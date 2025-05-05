@@ -24,7 +24,7 @@ const Footer = (props) => {
                 <img src={icon1} alt="" />
               </div>
               <h2 className="xb-item--title">Subscribe us</h2>
-              <span className="xb-item--content">Want to stay up to date? Sign up for innomax it services update.</span>
+              <span className="xb-item--content">Want to stay up to date? Sign up for RubixGen it services update.</span>
               <form className="xb-item--contact mt-35" onSubmit={SubmitHandler}>
                 <div className="xb-item--input_field pos-rel">
                   <input type="email" name="gmail" id="text6" placeholder="enter your email" />
@@ -71,7 +71,7 @@ const Footer = (props) => {
                 </div>
               </div>
               <div className="footer-copyright mt-50 ul_li_between">
-                <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home">innomax</Link>. All rights reserved.</p>
+                <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home">RubixGen</Link>. All rights reserved.</p>
                 <ul className="footer-links ul_li mt-20">
                   <li><Link onClick={ClickHandler} to="/terms-conditions">Terms of Up</Link></li>
                   <li><Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></li>

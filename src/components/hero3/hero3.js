@@ -23,7 +23,7 @@ const Hero3 = (props) => {
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1500} delay={9}>
                                     <div>
-                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">We design and develop websites, mobile apps, and web applications that help your business grow and thrive in the digital age.</p>
+                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">We design and develop websites, mobile apps, and web applications that help your business grow and thrive in the digital age 🚀</p>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
@@ -34,7 +34,7 @@ const Hero3 = (props) => {
                                                 <div className="xb-item--holder">
                                                     <span className="xb-item--text xb-item--text1">Let's Build your's</span>
                                                     <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                                                    <span className="xb-item--text xb-item--text2">Let's Build your's</span>
+                                                    <span className="xb-item--text xb-item--text2">Let's Talk</span>
                                                 </div>
                                             </Link>
                                         </div>

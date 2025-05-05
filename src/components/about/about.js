@@ -19,7 +19,7 @@ const About = (props) => {
                     <div className="sec-title--two text-center">
                         <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                             <div className="sub-title wow fadeInDown" data-wow-duration="600ms">
-                                <img src={icon} alt="" /> We are innomax
+                                <img src={icon} alt="" /> We are RubixGen
                             </div>
                         </Fade>
                         <Fade direction='down' triggerOnce={'false'} duration={1500} delay={9}>

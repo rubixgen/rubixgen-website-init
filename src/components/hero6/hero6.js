@@ -27,7 +27,7 @@ const Hero6 = () => {
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">90K+ Businesses with AI-powered Innomax for Fast Support</p>
+                                        <p className="xb-item--content wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">90K+ Businesses with AI-powered RubixGen for Fast Support</p>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>

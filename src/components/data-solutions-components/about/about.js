@@ -17,7 +17,7 @@ const About = (props) => {
                         <div className="da-about-right">
                             <p className="content">We build responsive, user-friendly websites that make a lasting impression. From simple informational sites to complex e-commerce platforms, our websites are designed to engage visitors and convert them into customers. </p>
                             <p className="content">Our mobile app development services help businesses connect with customers on the go.</p>
-                            <p className="content">We develop custom web applications that solve complex business problems. Our web apps are built with scalability and performance in mind, ensuring they can grow with your business and handle increasing demands.</p>
+                            <p className="content">We develop custom web applications that solve complex business problems. Our web apps are built with scalability and performance in mind, ensuring they can grow with your business and handle increasing demands.🏆</p>
                         </div>
                     </div>
                 </div>

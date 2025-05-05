@@ -36,7 +36,7 @@ const About = (props) => {
                                     </Fade>
                                     <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
                                         <div>
-                                            <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">With over 35 years of experience, innomax is a trusted leader in cybersecurity solutions, providing customized strategies to protect sensitive data. Our commitment to innovation and customer satisfaction makes us a reliable in safeguarding your digital assets.</p>
+                                            <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">With over 35 years of experience, RubixGen is a trusted leader in cybersecurity solutions, providing customized strategies to protect sensitive data. Our commitment to innovation and customer satisfaction makes us a reliable in safeguarding your digital assets.</p>
                                         </div>
                                     </Fade>
                                 </div>

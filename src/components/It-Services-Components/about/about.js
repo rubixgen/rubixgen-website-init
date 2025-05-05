@@ -19,7 +19,7 @@ const About = () => {
       icon: aIcon1,
       heading: 'About us',
       content:
-        'Innomax IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.',
+        'RubixGen IT Services provides innovative, scalable solutions to drive business growth and efficiency. Our expert team ensures your business remains competitive with tailored IT services and reliable support for long-term success.',
     },
     {
       img: about2,

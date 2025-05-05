@@ -66,7 +66,7 @@ const WorkProcess = (props) => {
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <span className="content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">Our innomax Efficient Workflow in 5 Steps ensures streamlined IT solutions. We start by understanding your needs, then plan the project, design intuitive interfaces, build robust systems, and thoroughly test.</span>
+                                        <span className="content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">Our RubixGen Efficient Workflow in 5 Steps ensures streamlined IT solutions. We start by understanding your needs, then plan the project, design intuitive interfaces, build robust systems, and thoroughly test.</span>
                                     </div>
                                 </Fade>
                             </div>

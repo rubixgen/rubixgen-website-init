@@ -131,13 +131,13 @@ const BlogSingle = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <p>Gain exclusive insights into the world of IT solutions with innomax distinguished thought leaders. With years of experience and a deep understanding of industry trends, our thought leaders offer invaluable perspectives that illuminate the path to technological excellence. From emerging technologies to innovative strategies, they provide unique insights that inform and inspire. Join us as we delve into the inner workings of IT solutions, exploring the challenges.</p>
-                            <p>Embark on an illuminating journey into the world of IT solutions with innomax esteemed thought leaders. Delve deep into the inner workings of technology as our seasoned experts share their wealth of knowledge and experience. With a finger on the pulse of industry trends and a keen eye for innovation, our thought leaders offer unparalleled insights that illuminate the path</p>
+                            <p>Gain exclusive insights into the world of IT solutions with RubixGen distinguished thought leaders. With years of experience and a deep understanding of industry trends, our thought leaders offer invaluable perspectives that illuminate the path to technological excellence. From emerging technologies to innovative strategies, they provide unique insights that inform and inspire. Join us as we delve into the inner workings of IT solutions, exploring the challenges.</p>
+                            <p>Embark on an illuminating journey into the world of IT solutions with RubixGen esteemed thought leaders. Delve deep into the inner workings of technology as our seasoned experts share their wealth of knowledge and experience. With a finger on the pulse of industry trends and a keen eye for innovation, our thought leaders offer unparalleled insights that illuminate the path</p>
                             <div className="blog-details-video mt-70">
                                 <iframe width="880" height="440" src="https://www.youtube.com/embed/brvfBk97KyI?si=Q7zy3j4WYFoCYpsQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                             </div>
                             <h3 className="item_details_info_heading">Optimizing growth with IT infrastructure</h3>
-                            <p>They provide a comprehensive and in-depth analysis that goes beyond surface-level . Join us as we uncover the secrets of IT solutions, guided by the wisdom and expertise of innomax thought leaders. Prepare to be inspired, informed, and empowered to navigate the ever- landscape of technology with confidence and clarity. you'll gain access to unparalleled expertise and discover new possibilities for success in the ever-evolving world of technology success in the ever-evolving world of technology.y.</p>
+                            <p>They provide a comprehensive and in-depth analysis that goes beyond surface-level . Join us as we uncover the secrets of IT solutions, guided by the wisdom and expertise of RubixGen thought leaders. Prepare to be inspired, informed, and empowered to navigate the ever- landscape of technology with confidence and clarity. you'll gain access to unparalleled expertise and discover new possibilities for success in the ever-evolving world of technology success in the ever-evolving world of technology.y.</p>
                             <div className="row mb-90 align-items-center mt-none-30">
                                 <div className="col-md-6 mt-30">
                                     <div className="image_block">
@@ -243,7 +243,7 @@ const BlogSingle = (props) => {
                                         <span></span>
                                     </div>
                                     <div className="xb-item--holder">
-                                        <h3 className="xb-item--title">Exploring IT solutions <br /> ..with innomax</h3>
+                                        <h3 className="xb-item--title">Exploring IT solutions <br /> ..with RubixGen</h3>
                                         <span className="xb-item--text"><img src={icon8} alt="" />Christopher</span>
                                     </div>
                                 </Link>
@@ -270,7 +270,7 @@ const BlogSingle = (props) => {
                                     <span className="xb-item--bell-icon"><i className="fas fa-bell"></i></span>
                                 </div>
                                 <div className="xb-item--item-input_field pos-rel">
-                                    <input type="email" placeholder="innomax@example .com" />
+                                    <input type="email" placeholder="RubixGen@example .com" />
                                     <button type="submit">Subscribe</button>
                                 </div>
                             </div>

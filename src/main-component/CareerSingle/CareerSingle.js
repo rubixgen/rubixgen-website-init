@@ -30,7 +30,7 @@ const CareerSingle = (props) => {
                                 <div className="col-lg-8 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><img src={icon} alt="" />Careers</span>
-                                        <h2 className="title">Be a part of shaping the <br /> future & career opportunities <br /> at Innomax today.</h2>
+                                        <h2 className="title">Be a part of shaping the <br /> future & career opportunities <br /> at RubixGen today.</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 mt-30">
@@ -137,7 +137,7 @@ const CareerSingle = (props) => {
                                 <div className="col-lg-12">
                                     <div className="cs-contact-wrap cs-contact-form cd-contact-form">
                                         <h2 className="xb-title">Apply for this job</h2>
-                                        <p className="xb-content">innomax doesn’t accept unsolicited resumes from recruiters or employment agencies.</p>
+                                        <p className="xb-content">RubixGen doesn’t accept unsolicited resumes from recruiters or employment agencies.</p>
                                         <form onSubmit={SubmitHandler} className="contact-form">
                                             <div className="row">
                                                 <div className="col-lg-6">

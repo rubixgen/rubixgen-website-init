@@ -24,7 +24,7 @@ const ServiceSection = (props) => {
           <div className="col-lg-8">
             <div className="da-sec-titlte text-center mb-30">
               <span className="sub_title"><span><img src={sIcon} alt="" /></span>Our Services</span>
-              <h2 className="title">Bringing your ideas to life with innovative, scalable, and intelligent digital solutions.</h2>
+              <h2 className="title">Bringing your ideas to life 🪄</h2>
               <p className="content">Modern, scalable, and high-performing digital products.</p>
             </div>
           </div>
@@ -48,16 +48,6 @@ const ServiceSection = (props) => {
             </div>
           ))}
 
-        </div>
-        <div className="xb-btn text-center mt-55">
-          <Link onClick={ClickHandler} to="/service" className="thm-btn thm-btn--fill_icon thm-btn--data">
-            <div className="xb-item--hidden"><span className="xb-item--hidden-text">Book a Discover Call</span></div>
-            <div className="xb-item--holder">
-              <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
-              <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-              <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
-            </div>
-          </Link>
         </div>
       </div>
     </section>

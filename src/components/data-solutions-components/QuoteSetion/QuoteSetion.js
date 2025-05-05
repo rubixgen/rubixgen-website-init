@@ -16,29 +16,21 @@ const QuoteSetion = (props) => {
                     <div className="da-quote">
                         <div className="xb-item--inner">
                             <span className="xb-item--quote"><img src={qImg1} alt=""/></span>
-                            <p className="xb-item--content">“Data and AI is not only about finding answers faster – but creating transparency around issues that have always been murky”</p>
+                            <p className="xb-item--content">“True innovation in tech is not about complexity, but about simplicity done brilliantly✨”</p>
                             <div className="xb-item--holder ul_li">
-                                
-                                <div className="xb-item--author">
-                                    <img src={qImg2} alt=""/>
-                                </div>
-                                <div className="xb-item--avatar">
-                                    <h3 className="xb-item--name">Robert Miller <span className="xb-item--desig">Founder & CEO. at BUSD</span></h3>
-                                    <div className="xb-item--brand"><img src={qImg3} alt=""/></div>
-                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="da-cta">
                         <div className="xb-item--inner">
-                            <h2 className="xb-item--title">Take advantage of our expert knowledge.</h2>
+                            <h2 className="xb-item--title">Don't know where to start?</h2>
                             <div className="xb-btn mt-50">
                                 <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data">
                                     <div className="xb-item--hidden"><span className="xb-item--hidden-text">Book a Discover Call</span></div>
                                     <div className="xb-item--holder">
-                                        <span className="xb-item--text xb-item--text1">Book a Discover Call</span>
+                                        <span className="xb-item--text xb-item--text1">Book a consultation</span>
                                         <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
-                                        <span className="xb-item--text xb-item--text2">Book a Discover Call</span>
+                                        <span className="xb-item--text xb-item--text2">It's free. 😎</span>
                                     </div>
                                 </Link>
                             </div>

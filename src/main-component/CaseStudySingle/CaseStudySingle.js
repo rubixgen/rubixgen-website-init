@@ -74,7 +74,7 @@ const CaseStudySingle = (props) => {
                         <div className="csd-ser_inner ul_li_between">
                             <div className="csd-item ul_li">
                                 <div className="xb-icon"><img src={cIcon1} alt="" /></div>
-                                <h6 className="xb-text">client : <span> innomax</span></h6>
+                                <h6 className="xb-text">client : <span> RubixGen</span></h6>
                             </div>
                             <div className="csd-item ul_li">
                                 <div className="xb-icon"><img src={cIcon2} alt="" /></div>

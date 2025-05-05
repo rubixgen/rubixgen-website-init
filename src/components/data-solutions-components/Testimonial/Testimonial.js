@@ -35,7 +35,7 @@ const Testimonial = () => {
             <div className="container">
                 <div className="da-sec-titlte text-center mb-60">
                     <span className="sub_title"><span><img src={ticon1} alt="" /></span>Case studies</span>
-                    <h2 className="title">Who we've helped</h2>
+                    <h2 className="title">Who we've helped 🌟</h2>
                 </div>
                 <div className="da-testimonial-wrap pos-rel">
                     <div className="da-testimonial-slider swiper-container">

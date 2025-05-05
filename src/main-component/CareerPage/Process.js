@@ -92,7 +92,7 @@ const Process = (props) => {
                                                     </AccordionHeader>
                                                     <AccordionBody accordionId="5" className='acc_body'>
                                                         <div className="content">
-                                                            <p>By deciding we are a good match for each other, we’ll agree the terms of you starting your career at innomax..</p>
+                                                            <p>By deciding we are a good match for each other, we’ll agree the terms of you starting your career at RubixGen..</p>
                                                         </div>
                                                     </AccordionBody>
                                                 </AccordionItem>
