@@ -2,9 +2,9 @@ import React, { Fragment, useState } from 'react';
 import Services from '../../api/service'
 import { useParams } from 'react-router-dom'
 import ModalVideo from 'react-modal-video'
-import Header from '../../components/header/Header';
+import Header3 from '../../components/header3/Header3';
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import Footer from '../../components/footer/Footer';
+import Footer from '../../components/data-solutions-components/Footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 import Bg from '../../images/bg/page_bg01.jpg'
 import icon from '../../images/icon/ser-01.svg'
@@ -31,7 +31,7 @@ const ServiceSinglePage = (props) => {
     return (
         <Fragment>
             <div className="sco_agency">
-                <Header />
+                <Header3 />
                 <main className="page_content service-single-page">
                     <section className="page-title  pt-200 pos-rel bg_img" style={{ backgroundImage: `url(${Bg})` }}>
                         <div className="container">

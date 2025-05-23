@@ -6,9 +6,9 @@ import Bg from '../../images/bg/page_bg01.jpg'
 import icon from '../../images/icon/cap.svg'
 import Image1 from '../../images/hero/cd-img02.png'
 import Image2 from '../../images/shape/brd_shape.png'
-import Header from '../../components/header/Header';
+import Header3 from '../../components/header3/Header3';
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import Footer from '../../components/footer/Footer';
+import Footer from '../../components/data-solutions-components/Footer/Footer';
 import CtaSection from '../../components/CtaSection/CtaSection';
 
 
@@ -19,7 +19,7 @@ const BlogDetails = (props) => {
 
     return (
         <Fragment>
-            <Header />
+            <Header3 />
             <main className="page_content blog-page">
                 <section className="page-title  pt-200 pos-rel bg_img" style={{ backgroundImage: `url(${Bg})` }}>
                     <div className="container">

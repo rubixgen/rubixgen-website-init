@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
-import Header from '../../components/header/Header';
+import Header3 from '../../components/header3/Header3';
 import caseStudies from '../../api/case';
 import Project from '../../api/project'
 import { Link, useParams } from 'react-router-dom';
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import CtaSection from '../../components/CtaSection/CtaSection';
-import Footer from '../../components/footer/Footer';
+import Footer from '../../components/data-solutions-components/Footer/Footer';
 import Bg from '../../images/bg/page_bg01.jpg'
 import icon from '../../images/icon/eye-icon.svg'
 import caseImg from '../../images/service/cd-image.jpg'
@@ -28,7 +28,7 @@ const PortfolioSingle = (props) => {
     return (
         <Fragment>
             <div className='body_wrap sco_agency'>
-                <Header />
+                <Header3 />
                 <section className="page-title pt-200 pos-rel bg_img" style={{ backgroundImage: `url(${Bg})` }}>
                     <div className="container">
                         <div className="page-title-wrap">
