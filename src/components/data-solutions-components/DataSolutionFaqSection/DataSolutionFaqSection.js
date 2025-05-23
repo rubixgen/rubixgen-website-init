@@ -1,15 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const FaqSection = () => {
   const [activeFaq, setActiveFaq] = useState(0);
 
   const toggleFaq = (index) => {
     setActiveFaq((prev) => (prev === index ? null : index));
-  };
-
-  const ClickHandler = () => {
-    window.scrollTo(10, 0);
   };
 
   const faqsLeft = [

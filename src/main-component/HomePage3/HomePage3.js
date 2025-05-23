@@ -7,7 +7,6 @@ import ServiceSection from '../../components/data-solutions-components/ServiceSe
 import Testimonial from '../../components/data-solutions-components/Testimonial/Testimonial';
 import QuoteSetion from '../../components/data-solutions-components/QuoteSetion/QuoteSetion';
 import PartnerSection from '../../components/data-solutions-components/PartnerSection/PartnerSection';
-import DataSolutioBlogSection from '../../components/data-solutions-components/DataSolutioBlogSection/DataSolutioBlogSection';
 import DataSolutionFaqSection from '../../components/data-solutions-components/DataSolutionFaqSection/DataSolutionFaqSection';
 import Footer from '../../components/data-solutions-components/Footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';

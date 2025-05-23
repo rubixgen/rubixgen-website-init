@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import { Link } from 'react-router-dom'
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -25,10 +24,6 @@ const Testimonial = () => {
             swiperRef.current.navigation.update();
         }
     }, []);
-
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
 
     return (
         <section className="testimonial pt-150 pb-140" id="portfolio">

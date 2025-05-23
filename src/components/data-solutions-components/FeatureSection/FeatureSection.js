@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import icon1 from '../../../images/icon/da-fea_icon01.svg'
 import icon2 from '../../../images/icon/da-fea_icon02.svg'
 import icon3 from '../../../images/icon/da-fea_icon03.svg'
@@ -38,10 +37,6 @@ const Features = [
 
 
 const FeatureSection = (props) => {
-
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
     return (
         <section className="feature pt-150 pb-90" style={{ backgroundColor: '#f4f5fc' }}>
             <div className="container-fluid p-0">

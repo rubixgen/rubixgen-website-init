@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import qImg1 from '../../../images/icon/quote02.png'
-import qImg2 from '../../../images/testimonial/da-img.png'
-import qImg3 from '../../../images/brand/da-img.png'
 
 const QuoteSetion = (props) => {
 
