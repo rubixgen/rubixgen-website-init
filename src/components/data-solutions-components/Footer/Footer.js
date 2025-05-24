@@ -15,10 +15,10 @@ const Footer = (props) => {
         <h2 className="title marquee-left">
           <Link onClick={ClickHandler} to="/">
             <div className="marquee">
-              <div className="marquee-content">
+              <div className="marquee-content" style={{marginTop: "300px"}}>
                 <Marquee speed={50} gradient={false}>
-                  Let's Build your product<span>Book a free consultation</span>
-                  Let's Build your product<span>Book a free consultation</span>
+                  Let's Build your product. <span>Book a free consultation. </span>
+                  Let's Build your product. <span>Book a free consultation. </span>
                 </Marquee>
               </div>
             </div>
@@ -34,13 +34,6 @@ const Footer = (props) => {
               </div>
               <span className="xb-item--content mt-20">Intelligent Digital Solutions</span>
             </div>
-            <ul className="xb-item--nav_item mt-30 list-unstyled ul_li">
-              <li><Link onClick={ClickHandler} to="/about">About</Link></li>
-              <li><Link onClick={ClickHandler} to="/service">Services</Link></li>
-              <li><Link onClick={ClickHandler} to="/service">Case Study</Link></li>
-              <li><Link onClick={ClickHandler} to="/blog">Blog</Link></li>
-              <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
-            </ul>
           </div>
           <div className="footer-copyright mt-40 ul_li_between">
             <p className="copyright">Copyright© 2025 <Link onClick={ClickHandler} to="/home-3">RubixGen PVT Ltd</Link>. All rights reserved.</p>

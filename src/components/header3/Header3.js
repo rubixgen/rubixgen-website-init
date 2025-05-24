@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import logo from '../../images/logo/ruby-white.png'
 import logo2 from '../../images/logo/ruby-black.png'
 import MobileMenu from '../MobileMenu/MobileMenu'
 
 const Header3 = (props) => {
+    const location = useLocation();
+    const isContactPage = location.pathname === '/contact';
 
     const [mobailActive, setMobailState] = useState(false);
 
@@ -12,12 +14,19 @@ const Header3 = (props) => {
         window.scrollTo(10, 0);
     }
 
-    // Smooth scroll function for navigation
-    const scrollToSection = (sectionId, e) => {
+    // Enhanced navigation function to handle different page scenarios
+    const handleNavigation = (sectionId, e) => {
         e.preventDefault();
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
+        
+        if (isContactPage) {
+            // If on contact page, navigate to home page with hash
+            window.location.href = `/#${sectionId}`;
+        } else {
+            // If on home page, scroll to section
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
         }
     }
 
@@ -47,7 +56,7 @@ const Header3 = (props) => {
 
     return (
 
-        <div id="xb-header-area" className="header-area header-style-two header-style-six header-transparent">
+        <div id="xb-header-area" className={`header-area header-style-two header-style-six header-transparent ${isContactPage ? 'contact-page-header' : ''}`}>
             <div className={`xb-header stricky  ${isSticky ? 'stricked-menu stricky-fixed' : ''}`}>
                 <div className="container">
                     <div className="header__wrap ul_li_between">
@@ -62,16 +71,16 @@ const Header3 = (props) => {
                                 <nav className="main-menu collapse navbar-collapse">
                                     <ul>
                                         <li className="menu-item">
-                                            <Link onClick={ClickHandler} to="#"><span>Home</span></Link>
+                                            <Link onClick={ClickHandler} to="/"><span>Home</span></Link>
                                         </li>
                                         <li className="menu-item">
-                                            <a href="#company" onClick={(e) => scrollToSection('company', e)}><span>Company</span></a>
+                                            <a href="#company" onClick={(e) => handleNavigation('company', e)}><span>Company</span></a>
                                         </li>
                                         <li className="menu-item">
-                                            <a href="#services" onClick={(e) => scrollToSection('services', e)}><span>Services</span></a>
+                                            <a href="#services" onClick={(e) => handleNavigation('services', e)}><span>Services</span></a>
                                         </li>
                                         <li className="menu-item">
-                                            <a href="#portfolio" onClick={(e) => scrollToSection('portfolio', e)}><span>Portfolio</span></a>
+                                            <a href="#portfolio" onClick={(e) => handleNavigation('portfolio', e)}><span>Portfolio</span></a>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
                                     </ul>
@@ -106,7 +115,7 @@ const Header3 = (props) => {
                                 </button>
                             </div>
                             <div className="header-contact d-none d-md-block">
-                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Stated
+                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Started
                                     <span><i className="fal fa-plus"></i></span>
                                 </Link>
                             </div>

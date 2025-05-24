@@ -1,7 +1,6 @@
 import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, RoundedBox } from '@react-three/drei';
-import * as THREE from 'three';
 
 // Individual cube component - no individual movement
 const Cube = ({ position }) => {
@@ -50,7 +49,7 @@ const RubiksCubeScene = () => {
   }, []);
 
   return (
-    <group ref={groupRef} position={[0, -0.8, 0]}>
+    <group ref={groupRef} position={[0, 0, 0]}>
       {cubes.map((cube, index) => (
         <Cube
           key={index}

@@ -17,7 +17,7 @@ const Hero3 = (props) => {
                         <div className="col-lg-6">
                             <div className="xb-hero">
                                 <Fade direction='up' triggerOnce={'false'} duration={800} delay={6}>
-                                    <div>
+                                    <div style={{marginTop: "48px"}}>
                                         <h1 className="xb-item--title wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">Transforming Ideas into Digital Reality</h1>
                                     </div>
                                 </Fade>
@@ -27,12 +27,12 @@ const Hero3 = (props) => {
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1800} delay={9}>
-                                    <div>
+                                    <div style={{marginTop: "48px"}}>
                                         <div className="xb-btn mt-50 wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
                                             <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--fill_icon thm-btn--data">
                                                 <div className="xb-item--hidden"><span className="xb-item--hidden-text">Book a Discover Call</span></div>
                                                 <div className="xb-item--holder">
-                                                    <span className="xb-item--text xb-item--text1">Let's Build your's</span>
+                                                    <span className="xb-item--text xb-item--text1" >Let's Build your's</span>
                                                     <div className="xb-item--icon"><i className="fal fa-plus"></i></div>
                                                     <span className="xb-item--text xb-item--text2">Let's Talk</span>
                                                 </div>
@@ -44,7 +44,7 @@ const Hero3 = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="xb-shape">
+                <div className="xb-shape" style={{ position: 'absolute', bottom: 0, right: 0, marginTop: '120px', marginRight: '120px'}}>
                     <RubiksCube width="500px" height="500px" />
                 </div>
             </div>

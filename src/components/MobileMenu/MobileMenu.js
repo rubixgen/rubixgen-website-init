@@ -2,14 +2,14 @@ import React, { Fragment, useState } from 'react';
 import List from "@mui/material/List";
 import ListItem from "@mui/material/List";
 import Collapse from "@mui/material/Collapse";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 // Custom simplified menu for HomePage3
 const homePage3Menus = [
     {
         id: 1,
         title: 'Home',
-        link: '#',
+        link: '/',
         isScrollLink: false
     },
     {
@@ -197,29 +197,37 @@ const menus = [
 ]
 
 const MobileMenu = () => {
-
+    const location = useLocation();
     const [openId, setOpenId] = useState(0);
 
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
 
-    // Detect if we're on HomePage3
-    const isHomePage3 = window.location.pathname === '/home-3' || window.location.pathname === '/';
+    // Detect if we're on HomePage3 or contact page
+    const isHomePage3 = location.pathname === '/home-3' || location.pathname === '/';
+    const isContactPage = location.pathname === '/contact';
 
-    // Smooth scroll function for navigation
-    const scrollToSection = (sectionId, e) => {
+    // Enhanced navigation function to handle different page scenarios
+    const handleNavigation = (sectionId, e) => {
         e.preventDefault();
-        const section = document.getElementById(sectionId.replace('#', ''));
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-            // Close mobile menu if open
-            document.querySelector('.xb-header-menu')?.classList.remove('active');
+        
+        if (isContactPage) {
+            // If on contact page, navigate to home page with hash
+            window.location.href = `/#${sectionId.replace('#', '')}`;
+        } else {
+            // If on home page, scroll to section
+            const section = document.getElementById(sectionId.replace('#', ''));
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+                // Close mobile menu if open
+                document.querySelector('.xb-header-menu')?.classList.remove('active');
+            }
         }
     }
 
     // Choose which menu to render based on the current page
-    const menuToRender = isHomePage3 ? homePage3Menus : menus;
+    const menuToRender = (isHomePage3 || isContactPage) ? homePage3Menus : menus;
 
     return (
         <ul className="xb-menu-primary clearfix">
@@ -247,7 +255,7 @@ const MobileMenu = () => {
                                 </Collapse>
                             </Fragment>
                             : item.isScrollLink ? 
-                              <a href={item.link} onClick={(e) => scrollToSection(item.link, e)}>{item.title}</a>
+                              <a href={item.link} onClick={(e) => handleNavigation(item.link, e)}>{item.title}</a>
                               : <Link className="active" to={item.link} onClick={ClickHandler}>{item.title}</Link>
                         }
                     </ListItem>
