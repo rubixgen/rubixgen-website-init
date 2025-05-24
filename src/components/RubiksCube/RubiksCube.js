@@ -1,26 +1,25 @@
 import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
+import { OrbitControls, RoundedBox } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Individual cube component - no individual movement
 const Cube = ({ position }) => {
-  const edgeGeometry = useMemo(() => new THREE.EdgesGeometry(new THREE.BoxGeometry(0.99, 0.99, 0.99)), []);
-
   return (
-    <mesh position={position}>
-      <boxGeometry args={[0.98, 0.98, 0.98]} />
+    <RoundedBox 
+      position={position}
+      args={[0.98, 0.98, 0.98]} // width, height, depth
+      radius={0.08} // radius of the rounded corners
+      smoothness={4} // smoothness of the rounded corners
+    >
       <meshStandardMaterial 
         color="#ffffff" 
-        metalness={0.1} 
-        roughness={0.2}
+        metalness={0.2} 
+        roughness={0.9}
         transparent={true}
-        opacity={0.95}
+        opacity={1}
       />
-      <lineSegments geometry={edgeGeometry}>
-        <lineBasicMaterial color="#00000" />
-      </lineSegments>
-    </mesh>
+    </RoundedBox>
   );
 };
 
