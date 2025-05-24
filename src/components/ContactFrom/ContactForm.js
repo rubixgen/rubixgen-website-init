@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import SimpleReactValidator from 'simple-react-validator';
+import { toast } from 'react-toastify';
+import { sendContactEmail, sendAutoReply } from '../../api/email';
 
 
 const ContactForm = (props) => {
@@ -10,9 +12,11 @@ const ContactForm = (props) => {
         phone: '',
         message: ''
     });
+    const [isSubmitting, setIsSubmitting] = useState(false);
     const [validator] = useState(new SimpleReactValidator({
         className: 'errorMessage'
     }));
+    
     const changeHandler = e => {
         setForms({ ...forms, [e.target.name]: e.target.value })
         if (validator.allValid()) {
@@ -22,16 +26,55 @@ const ContactForm = (props) => {
         }
     };
 
-    const submitHandler = e => {
+    const submitHandler = async (e) => {
         e.preventDefault();
+        
         if (validator.allValid()) {
+            setIsSubmitting(true);
             validator.hideMessages();
-            setForms({
-                name: '',
-                email: '',
-                phone: '',
-                message: ''
-            })
+            
+            try {
+                // Send the main email to RubixGen
+                const emailResult = await sendContactEmail(forms);
+                
+                if (emailResult.success) {
+                    // Send auto-reply to the user
+                    await sendAutoReply(forms.email, forms.name);
+                    
+                    // Show success message
+                    toast.success('Thank you for your message! We\'ll get back to you within 24 hours.', {
+                        position: "top-right",
+                        autoClose: 5000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                    });
+                    
+                    // Clear the form
+                    setForms({
+                        name: '',
+                        email: '',
+                        phone: '',
+                        message: ''
+                    });
+                } else {
+                    throw new Error(emailResult.message);
+                }
+                
+            } catch (error) {
+                console.error('Form submission error:', error);
+                toast.error('Sorry, there was an error sending your message. Please try again or contact us directly.', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
+            } finally {
+                setIsSubmitting(false);
+            }
         } else {
             validator.showMessages();
         }
@@ -104,7 +147,14 @@ const ContactForm = (props) => {
                 </div>
             </div>
             <div className="cp-det-btn mt-20 d-grid">
-                <button className="cp-btn" type='submit'>Send us a message <i className="fal fa-arrow-right"></i></button>
+                <button 
+                    className={`cp-btn ${isSubmitting ? 'loading' : ''}`} 
+                    type='submit'
+                    disabled={isSubmitting}
+                >
+                    {isSubmitting ? 'Sending...' : 'Send us a message'} 
+                    <i className="fal fa-arrow-right"></i>
+                </button>
             </div>
         </form>
     )
