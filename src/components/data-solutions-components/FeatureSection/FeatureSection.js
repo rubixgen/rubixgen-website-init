@@ -49,14 +49,14 @@ const FeatureSection = (props) => {
                     </div>
                 </div>
                 <div className="da-feature-wrap">
-                    <div className="row g-0">
+                    <div className="row g-0" style={{ display: 'flex' }}>
                         {Features.map((features, fitem) => (
-                            <div className={features.col} key={fitem}>
-                                <div className="da-feature-item">
-                                    <div className="xb-item--holder">
-                                        <div className="xb-item--icon"><img src={features.icon} alt="" /></div>
-                                        <h3 className="xb-item--title">{features.title}</h3>
-                                        <p className="xb-item--content">{features.des}</p>
+                            <div className={features.col} key={fitem} style={{ display: 'flex' }}>
+                                <div className="da-feature-item" style={{ display: 'flex', width: '100%' }}>
+                                    <div className="xb-item--holder" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '40px 30px' }}>
+                                        <div className="xb-item--icon" style={{ marginBottom: '20px' }}><img src={features.icon} alt="" /></div>
+                                        <h3 className="xb-item--title" style={{ marginBottom: '15px', fontSize: '24px', fontWeight: '600' }}>{features.title}</h3>
+                                        <p className="xb-item--content" style={{ marginTop: 'auto', lineHeight: '1.6', color: '#666' }}>{features.des}</p>
                                     </div>
                                 </div>
                             </div>

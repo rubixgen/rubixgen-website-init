@@ -88,8 +88,8 @@ const FaqSection = () => {
   return (
     <section className="faq pt-150 pb-115" style={{ backgroundColor: '#f4f5fc' }}>
       <div className="container">
-        <div className="da-sec-titlte text-center mb-30">
-          <h2 className="title">Your Questions, Answered!</h2>
+        <div className="da-sec-titlte text-center mb-30" >
+          <h2 className="title" style={{ paddingTop: '50px' }}>Your Questions, Answered!</h2>
         </div>
         <div className="row">
           <div className="col-lg-6">
