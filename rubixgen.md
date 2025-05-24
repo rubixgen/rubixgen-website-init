@@ -12,7 +12,7 @@ At RubixGen, we believe software isn’t just code — it’s the engine of prog
 ---
 
 ## 🧠 Tagline  
-**“Build Smart. Scale Fast. Evolve Always.”**
+**“Transforming Ideas into Digital Reality”**
 
 ---
 

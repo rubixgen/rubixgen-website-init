@@ -17,7 +17,7 @@ const Cube = ({ position }) => {
         metalness={0.2} 
         roughness={0.9}
         transparent={true}
-        opacity={1}
+        opacity={0.9}
       />
     </RoundedBox>
   );
