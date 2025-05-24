@@ -227,7 +227,12 @@ const MobileMenu = () => {
     }
 
     // Choose which menu to render based on the current page
-    const menuToRender = (isHomePage3 || isContactPage) ? homePage3Menus : menus;
+    let menuToRender = (isHomePage3 || isContactPage) ? homePage3Menus : menus;
+    
+    // Filter out Contact menu item when on contact page
+    if (isContactPage) {
+        menuToRender = homePage3Menus.filter(item => item.id !== 5); // Filter out Contact item (id: 5)
+    }
 
     return (
         <ul className="xb-menu-primary clearfix">

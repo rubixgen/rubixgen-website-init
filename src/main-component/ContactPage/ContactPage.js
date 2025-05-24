@@ -16,7 +16,7 @@ const ContactPage = (props) => {
             <div className='body_wrap sco_agency'>
                 <Header3 />
                 <section className="page-title  pt-200 pos-rel bg_img" style={{ backgroundImage: `url(${Bg})` }}>
-                    <div className="container">
+                    <div className="container" style={{ paddingTop: '150px' }}>
                         <div className="page-title-wrap sd-title-wrap">
                             <div className="row mt-none-30 align-items-end">
                                 <div className="col-lg-9 mt-30">

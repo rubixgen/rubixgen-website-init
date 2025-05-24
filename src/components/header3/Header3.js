@@ -62,8 +62,17 @@ const Header3 = (props) => {
                     <div className="header__wrap ul_li_between">
                         <div className="header-logo">
                             <Link onClick={ClickHandler} to="/">
-                                <img src={logo} alt="" />
-                                <img src={logo2} alt="" />
+                                {isContactPage ? (
+                                    <>
+                                        <img src={logo2} alt="" />
+                                        <img src={logo2} alt="" />
+                                    </>
+                                ) : (
+                                    <>
+                                        <img src={logo} alt="" />
+                                        <img src={logo2} alt="" />
+                                    </>
+                                )}
                             </Link>
                         </div>
                         <div className="header-right ul_li">
@@ -82,7 +91,9 @@ const Header3 = (props) => {
                                         <li className="menu-item">
                                             <a href="#portfolio" onClick={(e) => handleNavigation('portfolio', e)}><span>Portfolio</span></a>
                                         </li>
-                                        <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
+                                        {!isContactPage && (
+                                            <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
+                                        )}
                                     </ul>
                                 </nav>
                                 <div className="xb-header-wrap">
@@ -114,11 +125,13 @@ const Header3 = (props) => {
                                     <i className="far fa-bars"></i>
                                 </button>
                             </div>
-                            <div className="header-contact d-none d-md-block">
-                                <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Started
-                                    <span><i className="fal fa-plus"></i></span>
-                                </Link>
-                            </div>
+                            {!isContactPage && (
+                                <div className="header-contact d-none d-md-block">
+                                     <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--data thm-btn--header">Get Started
+                                        <span><i className="fal fa-plus"></i></span>
+                                    </Link>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
