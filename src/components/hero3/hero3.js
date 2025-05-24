@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Fade } from "react-awesome-reveal";
-import hImg from '../../images/shape/hero-glassisom2.png'
+import RubiksCube from '../RubiksCube/RubiksCube';
 
 const Hero3 = (props) => {
 
@@ -45,7 +45,7 @@ const Hero3 = (props) => {
                     </div>
                 </div>
                 <div className="xb-shape">
-                    <img src={hImg} alt=""/>
+                    <RubiksCube width="500px" height="500px" />
                 </div>
             </div>
         </section>
