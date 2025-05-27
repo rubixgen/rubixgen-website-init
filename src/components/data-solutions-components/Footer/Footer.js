@@ -36,11 +36,7 @@ const Footer = (props) => {
             </div>
           </div>
           <div className="footer-copyright mt-40 ul_li_between">
-            <p className="copyright">Copyright© 2025 <Link onClick={ClickHandler} to="/home-3">RubixGen PVT Ltd</Link>. All rights reserved.</p>
-            <ul className="footer-links ul_li">
-              <li><Link onClick={ClickHandler} to="/terms-conditions">Terms of Service</Link></li>
-              <li><Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></li>
-            </ul>
+            <p className="copyright">Copyright© 2025 RubixGen PVT Ltd. All rights reserved.</p>
           </div>
         </div>
       </div>

@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import Services from '../../../api/service'
-import { Link } from "react-router-dom";
 import sIcon from '../../../images/icon/flower-icon-blue.svg'
 import Bg from '../../../images/bg/da-service_bg.jpg'
 
 const ServiceSection = (props) => {
-  const ClickHandler = () => {
-    window.scrollTo(10, 0);
-  }
+
 
   const [activeIndex, setActiveIndex] = useState(2);
 
@@ -44,7 +41,7 @@ const ServiceSection = (props) => {
                 <span className="xb-item--arrow"><i className="fal fa-long-arrow-right"></i></span>
                 <p className="xb-item--content">{service.description}</p>
               </div>
-              <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay"></Link>
+              x
             </div>
           ))}
 

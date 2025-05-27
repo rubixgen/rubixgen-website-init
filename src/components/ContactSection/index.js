@@ -28,7 +28,7 @@ const ContactSection = (props) => {
                                 <div className="xb-item--inner">
                                     <div className="xb-item--top">
                                         <h3 className="xb-item--title">Contact Info</h3>
-                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +1 (123) 456-7890</span>
+                                        <span className="xb-item--hotline"><img src={icon1} alt="" /> +94 702053777</span>
                                         <span className="xb-item--email"><img src={icon2} alt="" /> hello@rubixgen.com</span>
                                         <ul className="social_icons_block list-unstyled ul_li">
                                             <li><Link onClick={ClickHandler} to="/contact" aria-label="Facebook"><i className="fab fa-facebook-f"></i></Link></li>
