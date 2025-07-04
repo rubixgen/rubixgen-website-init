@@ -6,6 +6,8 @@ import "swiper/css/navigation";
 import ticon1 from "../../../images/icon/flower-icon-blue.svg";
 import tImg1 from "../../../images/testimonial/solar.jpg";
 import tImg2 from "../../../images/testimonial/sunLogo.png";
+import hdl_web_1 from "../../../images/testimonial/hdl_solutions_web.png";
+import hdl_web_2 from "../../../images/testimonial/hdl_web_2.png";
 
 // Sample data array
 const projects = [
@@ -43,9 +45,9 @@ const projects = [
     ],
     contentThree:
       "Using modern technologies like Node.js, React, React Native, Electron.js, MongoDB, and Firebase, our team built a scalable and secure solution with role-based access, real-time notifications, and advanced device tracking. The system supports both internal and external shop operations, reduces manual paperwork, and improves overall business efficiency.",
-    authorImg: tImg1, // Replace with appropriate team image or HDL image
-    avatarImg: tImg2, // Replace with HDL Technologies logo or related image
-    link: "https://hdltechnologies.lk/", // Replace with actual project URL if available
+    authorImg: hdl_web_1, // Replace with appropriate team image or HDL image
+    avatarImg: hdl_web_2, // Replace with HDL Technologies logo or related image
+    link: "https://hdlcomputersolutions.netlify.app/", // Replace with actual project URL if available
   },
   {
     title: "RubixGen created the EcoGrow Mobile App",
