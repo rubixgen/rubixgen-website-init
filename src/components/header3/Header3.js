@@ -67,17 +67,34 @@ const Header3 = (props) => {
               <Link onClick={ClickHandler} to="/">
                 {isContactPage ? (
                   <>
-                    <img src={logo2} alt="" />
-                    <img src={logo2} alt="" />
+                    <img
+                      src={logo2}
+                      alt=""
+                      style={{ height: "60px", width: "auto" }}
+                    />
+                    <img
+                      src={logo2}
+                      alt=""
+                      style={{ height: "60px", width: "auto" }}
+                    />
                   </>
                 ) : (
                   <>
-                    <img src={logo} alt="" />
-                    <img src={logo2} alt="" />
+                    <img
+                      src={logo}
+                      alt=""
+                      style={{ height: "60px", width: "auto" }}
+                    />
+                    <img
+                      src={logo2}
+                      alt=""
+                      style={{ height: "60px", width: "auto" }}
+                    />
                   </>
                 )}
               </Link>
             </div>
+
             <div className="header-right ul_li">
               <div className="main-menu__wrap ul_li navbar navbar-expand-xl">
                 <nav className="main-menu collapse navbar-collapse">

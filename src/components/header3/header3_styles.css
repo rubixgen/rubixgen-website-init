@@ -7,13 +7,14 @@
 }
 
 .menu-item:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .menu-item span {
   display: inline-block;
   transition: color 0.3s ease;
   position: relative;
+  font-size: 1.1rem;
 }
 
 /* Underline effect on hover */
