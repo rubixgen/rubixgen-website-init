@@ -29,6 +29,25 @@ const projects = [
     link: "https://sunpledgeholdings.com/",
   },
   {
+    title: "RubixGen developed the HDL Technologies Management System",
+    contentOne: `We collaborated with HDL Technologies to build a specialized, multi-platform shop management system tailored for laptop repair businesses in Sri Lanka. Our goal was to streamline repair workflows, enhance customer experience, and enable better inventory and order management across web, desktop, and mobile platforms.`,
+    stats: [
+      {
+        number: "3 Platforms",
+        text: "Web, desktop, and mobile applications ensure complete accessibility and operational flexibility for shop owners and workers.",
+      },
+      {
+        number: "Real-Time Tracking",
+        text: "Customers and shop managers can track repair progress, updates, and histories using a secure, cloud-based system with QR code support.",
+      },
+    ],
+    contentThree:
+      "Using modern technologies like Node.js, React, React Native, Electron.js, MongoDB, and Firebase, our team built a scalable and secure solution with role-based access, real-time notifications, and advanced device tracking. The system supports both internal and external shop operations, reduces manual paperwork, and improves overall business efficiency.",
+    authorImg: tImg1, // Replace with appropriate team image or HDL image
+    avatarImg: tImg2, // Replace with HDL Technologies logo or related image
+    link: "https://hdltechnologies.lk/", // Replace with actual project URL if available
+  },
+  {
     title: "RubixGen created the EcoGrow Mobile App",
     contentOne: `EcoGrow needed a mobile solution to empower users to grow plants with AI guidance. We designed and developed a cross-platform app with push notifications, camera features, and more.`,
     stats: [

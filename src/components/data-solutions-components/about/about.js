@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import shape from "../../../images/shape/about-glassisom.png";
+import "./about.css"; // Import the custom CSS for animation
 
-const About = (props) => {
+const About = () => {
   return (
     <section className="about" id="company">
       <div className="container">
@@ -9,22 +10,21 @@ const About = (props) => {
           <div className="mt-2 col-lg-6">
             <div className="da-about-left">
               <h2 className="title">
-                {" "}
-                Intelligent software <br /> solutions tailored to <br /> meet
-                your business needs
+                Intelligent software <br /> solutions tailored to <br />
+                meet your business needs
               </h2>
               <div className="img">
-                <img src={shape} alt="" />
+                <img src={shape} alt="decorative shape" />
               </div>
             </div>
           </div>
-          <div className="my-2  col-lg-6">
+          <div className="my-2  lg:mx-4 col-lg-6">
             <div className="da-about-right">
               <p className="content">
                 We build responsive, user-friendly websites that make a lasting
                 impression. From simple informational sites to complex
                 e-commerce platforms, our websites are designed to engage
-                visitors and convert them into customers.{" "}
+                visitors and convert them into customers.
               </p>
               <p className="content">
                 Our mobile app development services help businesses connect with
