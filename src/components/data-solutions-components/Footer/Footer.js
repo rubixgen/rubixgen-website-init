@@ -9,6 +9,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const ClickHandler = () => {
   window.scrollTo(10, 0);
@@ -40,13 +41,42 @@ const Footer = (props) => {
         <div className="xb-footer">
           <div className="da-footer-inner ul_li_between mt-none-30">
             <div className="xb-item--left mt-10">
-              <div className="xb-item--logo mt-20">
+              <div className="xb-item--logo mt-10">
                 <Link onClick={ClickHandler} to="/">
                   <img src={logo} alt="" />
                 </Link>
               </div>
-              <span className="xb-item--content mt-20">
+              <span className="xb-item--content mt-10">
                 Intelligent Digital Solutions
+              </span>
+              <span
+                className="mx-2 mt-20"
+                style={{
+                  display: "flex",
+                  marginTop: "20px",
+                  alignItems: "center",
+                  gap: "30px",
+                  flexWrap: "wrap",
+                }}
+              >
+                <span
+                  style={{ display: "flex", alignItems: "center", gap: "8px" }}
+                >
+                  <FaEnvelope />
+                  hello@rubixgen.com
+                </span>
+                <span
+                  style={{ display: "flex", alignItems: "center", gap: "8px" }}
+                >
+                  <FaPhoneAlt />
+                  +94 702053777
+                </span>
+                <span
+                  style={{ display: "flex", alignItems: "center", gap: "8px" }}
+                >
+                  <FaMapMarkerAlt />
+                  RubixGen, 223 A 1/2 Galle Rd, Panadura, Sri Lanka
+                </span>
               </span>
             </div>
           </div>
