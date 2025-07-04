@@ -44,8 +44,8 @@ const Hero3 = (props) => {
                       data-wow-duration="600ms"
                     >
                       We design and develop websites, mobile apps, and web
-                      applications and AI solutions that help your business grow
-                      and thrive in the digital age 🚀
+                      applications and AI ssolutions that help your business
+                      grow and thrive in the digital age 🚀
                     </p>
                   </div>
                 </Fade>
