@@ -9,6 +9,9 @@ import tImg2 from "../../../images/testimonial/sunLogo.png";
 import hdl_web_1 from "../../../images/testimonial/hdl_solutions_web.png";
 import hdl_web_2 from "../../../images/testimonial/hdl_web_2.png";
 
+import coolmeal_logo from "../../../images/testimonial/coolmeal.png";
+import coolmeal_tech from "../../../images/testimonial/coolmeal_tech.png";
+
 // Sample data array
 const projects = [
   {
@@ -50,23 +53,24 @@ const projects = [
     link: "https://hdlcomputersolutions.netlify.app/", // Replace with actual project URL if available
   },
   {
-    title: "RubixGen created the EcoGrow Mobile App",
-    contentOne: `EcoGrow needed a mobile solution to empower users to grow plants with AI guidance. We designed and developed a cross-platform app with push notifications, camera features, and more.`,
+    title:
+      "RubixGen developed the Cool Meal – Sri Lankan Meal Plan Recommendation App",
+    contentOne: `Cool Meal is a mobile application designed specifically for Sri Lankan users to simplify their weekly meal planning. Our team developed a system that combines user preferences, health data, and budget to generate personalized meal plans with nutritional insights and ingredient lists.`,
     stats: [
       {
-        number: "120K+ Downloads",
-        text: "The app reached a large user base across urban and rural users within the first 6 months.",
+        number: "100% Personalized",
+        text: "Each meal plan is tailored based on user data such as age, health conditions, allergies, dietary preferences, location, and budget.",
       },
       {
-        number: "Featured on 5 Platforms",
-        text: "EcoGrow app is highlighted on tech blogs and app stores for its intuitive UI and impact.",
+        number: "AI-Driven Planning",
+        text: "Leveraging Deep Learning, NLP, and content-based filtering, the app generates smart weekly meal plans with real-time chatbot-based customization.",
       },
     ],
     contentThree:
-      "Built with Flutter and Firebase, the app offers real-time sync, offline capabilities, and a chatbot assistant for garden lovers.",
-    authorImg: tImg2,
-    avatarImg: tImg1,
-    link: "https://example.com/ecogrow",
+      "Built using modern technologies including Flutter for cross-platform mobile development, FastAPI and Python for backend services, LangChain for intelligent dialogue, and Scikit-learn/Pandas for data processing and recommendation logic. The system is scalable, secure, and hosted on AWS. This project exemplifies how AI can promote healthier, budget-conscious living in a localized context.",
+    authorImg: coolmeal_logo, // Replace with suitable image representing your team or app
+    avatarImg: coolmeal_tech, // Replace with Cool Meal logo or relevant image
+    link: "https://coolmeal.lk/", // Replace with actual project URL if available
   },
 ];
 
