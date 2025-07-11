@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import shape from "../../../images/shape/about-glassisom.png";
 import "./about.css"; // Import the custom CSS for animation
 
